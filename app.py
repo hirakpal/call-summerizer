@@ -41,7 +41,7 @@ def summarize_transcript(transcript):
         # Corrected model name to gpt-4-turbo-preview
         # You can also use "gpt-3.5-turbo" if you prefer
         response = client.chat.completions.create(
-            model="gpt-4-turbo-preview",  # or "gpt-3.5-turbo"
+            model="gpt-4o-mini",  # or "gpt-3.5-turbo"
             messages=[
                 {
                     "role": "user",
